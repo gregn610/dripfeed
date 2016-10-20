@@ -13,7 +13,7 @@ Usage:
 
 <h2>Example</h2>
 ~~~
-# First Terminal
+$# First Terminal
 $
 $ seq 1000 5 1100 > ../data/test_numbers.txt
 $ ./dripfeed.py -i 3 ../data/test_numbers.txt &
@@ -24,7 +24,7 @@ $
 
 and while that is running
 ~~~
-# Second Terminal
+$# Second Terminal
 $ tail -f ../data/test_numbers.txt
 1000
 1005
